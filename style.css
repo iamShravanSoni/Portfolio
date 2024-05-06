@@ -92,6 +92,13 @@ html,body {
     
 }
 
+.nav > h1 > a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .nav > ul > li > a {
     text-decoration: none;
     color: black;
