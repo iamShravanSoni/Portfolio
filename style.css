@@ -219,7 +219,9 @@ html,body {
     z-index: 8;
 }
 
-.element h2 {
+.element > h2 > a {
+    text-decoration: none;
+    color: whitesmoke;
     font-size: 6.8vw;
     text-transform: uppercase;
     line-height: 5vw;
@@ -233,7 +235,7 @@ html,body {
 
 }
 
-.element h2:hover {
+.element > h2 > a:hover {
     color: black;
 }
 
