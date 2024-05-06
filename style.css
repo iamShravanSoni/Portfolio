@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -212,8 +219,8 @@ html,body {
     -webkit-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
-    background: -webkit-gradient(linear,left top, right top,from(#f5e31bf5),color-stop(#F5E41B),to(#f5e31bf5));
     background: -o-linear-gradient(left,#f5e31bf5,#F5E41B,#f5e31bf5);
+    background: -webkit-gradient(linear,left top, right top,from(#f5e31bf5),color-stop(#F5E41B),to(#f5e31bf5));
     background: linear-gradient(to right,#f5e31bf5,#F5E41B,#f5e31bf5);
     height: 100%;
     z-index: 8;
@@ -522,7 +529,7 @@ html,body {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background: -o-linear-gradient(top, white, black);
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
     background: linear-gradient(to bottom, white, black);
 }
